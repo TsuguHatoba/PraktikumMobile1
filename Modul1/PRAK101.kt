@@ -11,5 +11,5 @@ fun main() {
     print("Suhu Anda: ")
     var suhu = readLine()
     val valueRandom =  String.format("%.1f",Random.nextDouble(suhu!!.toInt().toDouble(), 37.0))
-    println("Selamat Pagi, $nama. Umur anda $umur Tahun \nSuhu Tubah anda $valueRandom derajat Celcius")
+    println("Selamat Pagi, $nama. Umur anda $umur Tahun \nSuhu Tubuh anda $valueRandom derajat Celcius")
 }
